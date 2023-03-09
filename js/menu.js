@@ -1,4 +1,4 @@
-document.write('<nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">\n' +
+document.write('<nav id="header1" class="navbar sticky-top bg-light navbar-light navbar-expand-md bg-faded justify-content-center">\n' +
     '    <div class="container-fluid">\n' +
     '        <a href="/betonnyyprostir/index.html" class="navbar-brand d-flex w-50 me-auto">\n' +
     '            <img src="images/logo_vertical.png" alt="Бетонний простір" height="60">\n' +
@@ -23,7 +23,7 @@ document.write('<nav class="navbar navbar-light navbar-expand-md bg-faded justif
     '                    <a class="nav-link" href="/betonnyyprostir/gallery.html">Галерея</a>\n' +
     '                </li>\n' +
     '                <li class="nav-item">\n' +
-    '                    <a class="nav-link no-text-transfer" href="/betonnyyprostir/about.html">Про нас</a>\n' +
+    '                    <a class="nav-link no-text-transfer" href="/betonnyyprostir/articles.html">Статті</a>\n' +
     '                </li>\n' +
     '                <li class="nav-item active">\n' +
     '                    <a class="nav-link" href="/betonnyyprostir/contacts.html"> Контакти </a>\n' +
@@ -37,9 +37,9 @@ document.write('<nav class="navbar navbar-light navbar-expand-md bg-faded justif
     '                    <p class="no-text-transfer"> 068 910 3710 &#160 <br> 050 760 8545 &#160 </p>\n' +
     '                </li>\n' +
     '                <li class="nav-item">\n' +
-    '                    <a class="nav-link" href="/files/Price.pdf" ><p class="h5"><kbd> &#8681 Прайс</kbd></p> </a>\n' +
+    '                    <a class="nav-link" href="/files/Price.pdf" target="_blank"><p class="h4"><kbd> &#8681 Прайс</kbd></p> </a>\n' +
     '                </li>\n' +
     '            </ul>\n' +
     '        </div>\n' +
     '    </div>\n' +
-    '</nav>\n');
+    '</nav>');
