@@ -80,17 +80,28 @@
             <button type="submit" class="btn btn-dark">Відправити</button>
         </form>
     </div>
-    <div class="col-sm-8 m-3">
-        <img src="images/map/map_2_point.jpg" class="img-fluid" alt="Наше розташування">
-    </div>
+<!--    picture with map(old variant )-->
+<!--    <div class="col-sm-8 m-3">-->
+<!--        <img src="images/map/map_2_point.jpg" class="img-fluid" alt="Наше розташування">-->
+<!--    </div>-->
+    <!-- Google map-->
+    <div id="googleMap" class="col-sm"></div>
+
+    <script>
+        function myMap() {
+            var myCenter = new google.maps.LatLng(48.643006830447995, 33.12475107286834);
+            var mapCanvas = document.getElementById("googleMap");
+            var mapOptions = {center: myCenter, zoom: 13};
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({position:myCenter});
+            marker.setMap(map);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1RL8CWXE0oN5rIZnKMBDPqmzo0nGYt0g&callback=myMap"></script>
 </div>
 
 <!--footer-->
 <script src="/js/footer.js"></script>
-<!--    Google map-->
-<!--   <div id="map-container-google-2" class="z-depth-1-half map-container d-flex justify-content-center" style="height: 500px">-->
-<!--        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d8866.726965410193!2d33.121574599622335!3d48.64632269551382!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1677146380382!5m2!1suk!2sua"-->
-<!--                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>&ndash;&gt;-->
 
 </body>
 </html>
