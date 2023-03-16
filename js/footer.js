@@ -111,7 +111,7 @@ document.write('<footer id="footer1" class="text-center text-lg-start bg-white t
     '            <!-- Grid row -->\n' +
     '        </div>\n' +
     '    </section>\n' +
-    '    <!-- Section: Links  -->\n' +
+    '    <!-- Section: Links -->\n' +
     '\n' +
     '    <!-- Copyright -->\n' +
     '    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">\n' +

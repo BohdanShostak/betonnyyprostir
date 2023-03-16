@@ -26,7 +26,7 @@ document.write('<nav id="header1" class="navbar sticky-top bg-light navbar-light
     '                    <a class="nav-link no-text-transfer" href="/betonnyyprostir/articles.html">Статті</a>\n' +
     '                </li>\n' +
     '                <li class="nav-item active">\n' +
-    '                    <a class="nav-link" href="/betonnyyprostir/contacts.html"> Контакти </a>\n' +
+    '                    <a class="nav-link" href="/betonnyyprostir/contacts.html">Контакти</a>\n' +
     '                </li>\n' +
     '                <li class="nav-item">\n' +
     '                    <a class="nav-link" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSowGBFVitYTUz9sc-wcSKZLTsohBVd3QBwmxF-A6Gu0tc_hQl3xKYBR2Zn7gG5tT1YJxcZJOYhaUx6/pub?gid=0&single=true&output=pdf">Каталог</a>\n' +
@@ -42,4 +42,4 @@ document.write('<nav id="header1" class="navbar sticky-top bg-light navbar-light
     '            </ul>\n' +
     '        </div>\n' +
     '    </div>\n' +
-    '</nav>\n');
+    '</nav>');
