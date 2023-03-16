@@ -34,7 +34,7 @@ document.write('<nav id="header1" class="navbar sticky-top bg-light navbar-light
     '            </ul>\n' +
     '            <ul class="nav navbar-nav ms-auto w-100 justify-content-end">\n' +
     '                <li class="nav-item">\n' +
-    '                    <p class="no-text-transfer"> 068 910 3710 &#160 <br> 050 760 8545 &#160 </p>\n' +
+    '                    <p class="no-text-transfer"> +38 (068) 910 3710 &#160 <br> +38 (050) 760 8545 &#160 </p>\n' +
     '                </li>\n' +
     '                <li class="nav-item">\n' +
     '                    <a class="nav-link" href="/files/Price.pdf" target="_blank"><p class="h4"><kbd> &#8681 Прайс</kbd></p> </a>\n' +
@@ -42,4 +42,4 @@ document.write('<nav id="header1" class="navbar sticky-top bg-light navbar-light
     '            </ul>\n' +
     '        </div>\n' +
     '    </div>\n' +
-    '</nav>');
+    '</nav>\n');
