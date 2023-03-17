@@ -85,7 +85,7 @@ document.write('<footer id="footer1" class="text-center text-lg-start bg-white t
     '                        <a href="contacts.html" class="text-reset no-text-decoration">Контакти</a>\n' +
     '                    </p>\n' +
     '                    <p>\n' +
-    '                        <a href="/files/Price.pdf" class="text-reset no-text-decoration">Каталог</a>\n' +
+    '                        <a href="files/Price.pdf" class="text-reset no-text-decoration">Каталог</a>\n' +
     '                    </p>\n' +
     '                </div>\n' +
     '                <!-- Grid column -->\n' +
