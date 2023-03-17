@@ -9,7 +9,7 @@ document.write('<footer id="footer1" class="text-center text-lg-start bg-white t
     '\n' +
     '        <!-- Right -->\n' +
     '        <div>\n' +
-    '            <a href="https://www.facebook.com/profile.php?id=100077792115501" class="me-4 link-secondary no-text-decoration">\n' +
+    '            <a href="https://www.facebook.com/profile.php?id=100077792115501" class="me-4 link-secondary no-text-decoration" target="_blank">\n' +
     '                <i class="fab fa-facebook-f"></i>\n' +
     '            </a>\n' +
     '<!--            <a href="https://www.instagram.com/anastasiiaobertas/" class="me-4 link-secondary no-text-decoration">-->\n' +
@@ -18,7 +18,7 @@ document.write('<footer id="footer1" class="text-center text-lg-start bg-white t
     '            <a href="viber://chat?number=+380689103710" class="me-4 link-secondary no-text-decoration">\n' +
     '                <i class="fab fa-viber"></i>\n' +
     '            </a>\n' +
-    '            <a href="https://t.me/+380689103710" class="me-4 link-secondary no-text-decoration">\n' +
+    '            <a href="https://t.me/+380689103710" class="me-4 link-secondary no-text-decoration" target="_blank">\n' +
     '                <i class="fab fa-telegram"></i>\n' +
     '            </a>\n' +
     '            <a href="mailto: betonnyyprostir@gmail.com" class="me-4 link-secondary no-text-decoration">\n' +
@@ -85,7 +85,7 @@ document.write('<footer id="footer1" class="text-center text-lg-start bg-white t
     '                        <a href="contacts.html" class="text-reset no-text-decoration">Контакти</a>\n' +
     '                    </p>\n' +
     '                    <p>\n' +
-    '                        <a href="files/Price.pdf" class="text-reset no-text-decoration">Каталог</a>\n' +
+    '                        <a href="files/Price.pdf" class="text-reset no-text-decoration" target="_blank">Каталог</a>\n' +
     '                    </p>\n' +
     '                </div>\n' +
     '                <!-- Grid column -->\n' +
