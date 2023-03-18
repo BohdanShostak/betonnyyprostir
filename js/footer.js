@@ -94,24 +94,24 @@ document.write('<footer id="footer1" class="text-center text-lg-start bg-white t
     '                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">\n' +
     '                    <!-- Links -->\n' +
     '                    <h6 class="text-uppercase fw-bold mb-4">Контакти</h6>\n' +
-    '                    <p><i class="fas fa-home me-3 text-secondary"></i>Звенигородське шосе, 3А</p>\n' +
-    '                    <a a href="mailto:betonnyyprostir@gmail.com" class="text-secondary no-text-decoration">\n' +
-    '                        <p><i class="fas fa-envelope me-3 text-secondary"></i>betonnyyprostir@gmail.com</p>\n' +
+    '                    <nobr><p><i class="fas fa-home me-3 text-secondary"></i>Звенигородське шосе, 3А</p></nobr>\n' +
+    '\n' +
+    '                    <a href="mailto:betonnyyprostir@gmail.com" class="text-secondary no-text-decoration">\n' +
+    '                        <nobr><p><i class="fas fa-envelope me-3 text-secondary"></i>betonnyyprostir@gmail.com</p></nobr>\n' +
     '                    </a>\n' +
     '                    <a href="tel:+380689103710" class="text-secondary no-text-decoration">\n' +
-    '                        <p><i class="fa fa-viber me-3 text-secondary"></i>+ 38 068 910 3710</p>\n' +
+    '                        <nobr><p><i class="fa fa-viber me-3 text-secondary"></i>+ 38 068 910 3710</p></nobr>\n' +
     '                    </a>\n' +
     '                    <a href="tel:+380507608545" class="text-secondary no-text-decoration">\n' +
-    '                        <p><i class="fas fa-phone me-3 text-secondary"></i>+ 38 050 760 8545</p>\n' +
+    '                        <nobr><p><i class="fas fa-phone me-3 text-secondary"></i>+ 38 050 760 8545</p></nobr>\n' +
     '                    </a>\n' +
-    '\n' +
     '                </div>\n' +
     '                <!-- Grid column -->\n' +
     '            </div>\n' +
     '            <!-- Grid row -->\n' +
     '        </div>\n' +
     '    </section>\n' +
-    '    <!-- Section: Links -->\n' +
+    '    <!-- Section: Links  -->\n' +
     '\n' +
     '    <!-- Copyright -->\n' +
     '    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">\n' +

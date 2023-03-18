@@ -170,7 +170,7 @@
 /*background image*/
 .masthead {
     background-size: cover;
-    min-height: 70vh;
+    min-height: 60vh;
     position: relative;
     color: white;
     text-shadow: 2px 2px 2px rgba(0,0,0,.2);
@@ -189,13 +189,20 @@
 
 @media (max-width: 768px) {
     .masthead {
-        min-height: 30vh;
+        min-height: 50vh;
     }
     .background-image-header {
         font-size: calc(1.525rem + 3.3vw);
     }
 }
 /*background image end*/
+
+/*map*/
+.google-map {
+    height: 500px;
+}
+/*map end*/
+
 
 /*footer*/
 .no-text-decoration {
@@ -268,8 +275,6 @@
 .color-mix-black-white {
     background: linear-gradient(90deg, black, white);
 }
-
-
 /*product card colors end*/
 
 
