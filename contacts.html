@@ -28,76 +28,105 @@
 <!--header-->
 <script src="js/menu.js"></script>
 
-<div class="text-center py-3">
-    <p class="h4 pb=3">Контакти</p>
-</div>
+<div class="container">
 
-<!--    address, working hours and phone-->
-<div class="row">
-    <div class="col-sm d-flex justify-content-center">
-        <p>
-            <b>Адреса: </b><br>
-            Кіровоградська обл.,<br>
-            м. Олександрія, <br>
-            вул. Звенигородське шосе, 3А
-        </p>
+    <div class="text-center py-3">
+        <p class="h4 pb=3">Контакти</p>
     </div>
-    <div class="col-sm d-flex justify-content-center">
-        <p>
-            <b>Графік роботи: </b><br>
-            Пн - Пт 9:00-17:00 <br>
-            Субота 9:00-14:00 <br>
-            Неділя - вихідний
-        </p>
+
+<!--        <div class="container text-center text-md-start mt-5">-->
+            <!-- Grid row contact information -->
+            <div class="row mt-3">
+                <!-- How to contact -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-3">
+                        Як звязатись
+                    </h6>
+                    <a href="tel:+380689103710" class="text-dark no-text-decoration">
+                        <nobr><p><i class="fa fa-viber me-3 text-secondary"></i>+ 38 068 910 3710</p></nobr>
+                    </a>
+                    <a href="tel:+380507608545" class="text-dark no-text-decoration">
+                        <nobr><p><i class="fas fa-phone me-3 text-secondary"></i>+ 38 050 760 8545</p></nobr>
+                    </a>
+                    <a href="mailto:betonnyyprostir@gmail.com" class="text-dark no-text-decoration">
+                        <nobr><p><i class="fas fa-envelope me-3 text-secondary"></i>betonnyyprostir@gmail.com</p></nobr>
+                    </a>
+                    <a href="https://www.messenger.com/t/100077792115501" class="text-dark no-text-decoration">
+                        <nobr><p><i class="fa fa-facebook me-3 text-secondary"></i>facebook.com/betonnyy-prostir</p></nobr>
+                    </a>
+                </div>
+                <!-- How to contact  end -->
+
+                <!-- Address -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-3">
+                        Адреса
+                    </h6>
+                    <nobr><p>
+                        Кіровоградська обл.,<br>
+                        м. Олександрія, <br>
+                        вул. Звенигородське<br>
+                        шосе, 3А
+                    </p></nobr>
+                </div>
+                <!-- Adress end -->
+
+                <!-- Work hours -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
+                    <h6 class="text-uppercase fw-bold mb-3">
+                        Графік роботи
+                    </h6>
+                    <nobr></nobr><p>
+                        Пн - Пт 9:00-17:00 <br>
+                        Субота 9:00-14:00 <br>
+                        Неділя - вихідний
+                    </p></nobr>
+                </div>
+                <!-- Work hours end -->
+
+                <!-- Feedback -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <form action="https://mailthis.to/betonnyyprostir@gmail.com" method="POST">
+                        <h6 class="text-uppercase fw-bold mb-3">
+                            Зворотній зв'язок
+                        </h6>
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label">Ваша пошта чи номер телефону</label>
+                            <input type="text" class="form-control" id="inputEmail" name="connect">
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputQuestion" class="form-label">Ваше запитання</label>
+                            <textarea type="text" class="form-control" id="inputQuestion" name="question"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Відправити</button>
+                    </form>
+                </div>
+                <!-- Feedback end -->
+
+            </div>
+            <!-- Grid row -->
+<!--        </div>-->
+
+
+    <!-- map -->
+    <div class="row m-3">
+        <!-- Google map-->
+        <div id="googleMap" class="col-sm google-map"></div>
+        <script>
+            function myMap() {
+                var myCenter = new google.maps.LatLng(48.643006830447995, 33.12475107286834);
+                var mapCanvas = document.getElementById("googleMap");
+                var mapOptions = {center: myCenter, zoom: 13};
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+                var marker = new google.maps.Marker({position:myCenter});
+                marker.setMap(map);
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1RL8CWXE0oN5rIZnKMBDPqmzo0nGYt0g&callback=myMap"></script>
     </div>
-    <div class="col-sm d-flex justify-content-center">
-        <p>
-            <b>Як звязатись:</b><br>
-            Viber: 068 910 3710 <br>
-            Tel: 050 760 8545 <br>
-            betonnyyprostir@gmail.com<br>
-            <a class="link-secondary" href="https://www.facebook.com/profile.php?id=100077792115501" target="_blank">facebook.com/betonnyy-prostir</a>
-        </p>
-    </div>
-</div>
+    <!-- map end -->
 
-<!--    map and mail connection-->
-<div class="row p-3 m-3">
-
-<!--    <div class="col-sm d-flex justify-content-center d-flex align-items-end m-2">-->
-<!--        <form action="https://mailthis.to/betonnyyprostir@gmail.com" method="POST">-->
-<!--            <p class="h5 text-center">Зворотній зв'язок</p>-->
-<!--            <div class="mb-3">-->
-<!--                <label for="inputEmail" class="form-label">Ваша пошта чи номер телефону</label>-->
-<!--                <input type="text" class="form-control" id="inputEmail" name="connect">-->
-<!--            </div>-->
-<!--            <div class="mb-3">-->
-<!--                <label for="inputQuestion" class="form-label">Ваше запитання</label>-->
-<!--                <textarea type="text" class="form-control" id="inputQuestion" name="question"></textarea>-->
-<!--            </div>-->
-<!--            <button type="submit" class="btn btn-dark">Відправити</button>-->
-<!--        </form>-->
-<!--    </div>-->
-
-<!--    picture with map(old variant )-->
-<!--    <div class="col-sm-8 m-3">-->
-<!--        <img src="images/map/map_2_point.jpg" class="img-fluid" alt="Наше розташування">-->
-<!--    </div>-->
-
-    <!-- Google map-->
-    <div id="googleMap" class="col-sm google-map"></div>
-
-    <script>
-        function myMap() {
-            var myCenter = new google.maps.LatLng(48.643006830447995, 33.12475107286834);
-            var mapCanvas = document.getElementById("googleMap");
-            var mapOptions = {center: myCenter, zoom: 13};
-            var map = new google.maps.Map(mapCanvas, mapOptions);
-            var marker = new google.maps.Marker({position:myCenter});
-            marker.setMap(map);
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1RL8CWXE0oN5rIZnKMBDPqmzo0nGYt0g&callback=myMap"></script>
 </div>
 
 <!--footer-->
