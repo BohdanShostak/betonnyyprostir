@@ -275,6 +275,10 @@
 .color-mix-black-white {
     background: linear-gradient(90deg, black, white);
 }
+
+.color-mix-brown-orange {
+    background: linear-gradient(90deg, saddlebrown, orangered);
+}
 /*product card colors end*/
 
 
