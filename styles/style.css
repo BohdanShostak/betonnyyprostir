@@ -279,6 +279,14 @@
 .color-mix-brown-orange {
     background: linear-gradient(90deg, saddlebrown, orangered);
 }
+
+.color-mix-red-black {
+    background: linear-gradient(90deg, black, red);
+}
+
+.color-mix-brown-dark_brown {
+    background: linear-gradient(90deg, #4e2519, #c9651a);
+}
 /*product card colors end*/
 
 
