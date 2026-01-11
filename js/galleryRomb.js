@@ -2,15 +2,43 @@
 const lightbox5 = GLightbox({
   elements: [
     {
-      href: 'images/white.jpg',
+      href: 'images/brukivka/romb/Romb_1.jpg',
       type: 'image'
     },
     {
-      href: 'images/white.jpg',
+      href: 'images/brukivka/romb/Romb_2.jpg',
       type: 'image'
     },
     {
-      href: 'images/white.jpg',
+      href: 'images/brukivka/romb/Romb_3.jpg',
+      type: 'image'
+    },
+    {
+      href: 'images/brukivka/romb/Romb_4.jpg',
+      type: 'image'
+    },
+    {
+      href: 'images/brukivka/romb/Romb_5.jpg',
+      type: 'image'
+    },
+    {
+      href: 'images/brukivka/romb/Romb_6.jpg',
+      type: 'image'
+    },
+    {
+      href: 'images/brukivka/romb/Romb_7.jpg',
+      type: 'image'
+    },
+    {
+      href: 'images/brukivka/romb/Romb_8.jpg',
+      type: 'image'
+    },
+    {
+      href: 'images/brukivka/romb/Romb_9.jpg',
+      type: 'image'
+    },
+    {
+      href: 'images/brukivka/romb/Romb_10.jpg',
       type: 'image'
     }
   ],

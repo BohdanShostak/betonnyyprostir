@@ -2,15 +2,27 @@
 const lightbox7 = GLightbox({
   elements: [
     {
-      href: 'images/white.jpg',
+      href: 'images/brukivka/tsehlynka/Tsehlynka_1.jpg',
       type: 'image'
     },
     {
-      href: 'images/white.jpg',
+      href: 'images/brukivka/tsehlynka/Tsehlynka_2.jpg',
       type: 'image'
     },
     {
-      href: 'images/white.jpg',
+      href: 'images/brukivka/tsehlynka/Tsehlynka_3.jpg',
+      type: 'image'
+    },
+    {
+      href: 'images/brukivka/tsehlynka/Tsehlynka_4.jpg',
+      type: 'image'
+    },
+    {
+      href: 'images/brukivka/tsehlynka/Tsehlynka_5.jpg',
+      type: 'image'
+    },
+    {
+      href: 'images/brukivka/tsehlynka/Tsehlynka_6.jpg',
       type: 'image'
     }
   ],
