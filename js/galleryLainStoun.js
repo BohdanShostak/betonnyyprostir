@@ -2,15 +2,11 @@
 const lightbox4 = GLightbox({
   elements: [
     {
-      href: 'images/white.jpg',
+      href: 'images/brukivka/lainstoun/Lainstoun_2.jpg',
       type: 'image'
     },
     {
-      href: 'images/white.jpg',
-      type: 'image'
-    },
-    {
-      href: 'images/white.jpg',
+      href: 'images/brukivka/lainstoun/Lainstoun_3.jpg',
       type: 'image'
     }
   ],
